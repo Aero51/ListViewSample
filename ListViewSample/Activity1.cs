@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
-using Android.Runtime;
+using Android.OS;
 using Android.Views;
 using Android.Widget;
-using Android.OS;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ListViewSample
 {
@@ -51,7 +49,9 @@ namespace ListViewSample
 			SetContentView(Resource.Layout.MainLayoutTest); 
 			assignmentsListView = FindViewById<ListView> (Resource.Id.mainLayoutTestListView);
 
-	        assignmentActiveLayout = FindViewById<LinearLayout> (Resource.Id.assignmentSelectedItem);
+	        
+            
+            assignmentActiveLayout = FindViewById<LinearLayout> (Resource.Id.assignmentSelectedItem);
 
 		//	var data = new string[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
  
@@ -79,7 +79,7 @@ namespace ListViewSample
 
             for (int i = 1; i < 110; i++)
             {
-                list_item_number.Add(i);
+                list_item_number.Add(i+1);
                 list_assingment_name.Add("assingment_name");
                 list_assingment_job.Add("aasignmentJob");
                 list_assingment_phone.Add("assingment_phone");
@@ -91,7 +91,7 @@ namespace ListViewSample
             job.Text = string.Format("#{0} {1}\n{2}", "JobNumber", "StartDate","CompanyName");
             name.Text = "ContactName";
             phone.Text = "ContactPhone";
-            address.Text = string.Format("{0}\n{1}, {2} {3}", "assignment.Address", "assignment.City", "assignment.State", "assignment.Zip");
+            address.Text = string.Format("{0}\n{1}, {2} {3}", "Address", "City", "State", "Zip");
           //  assignmentActiveLayout.Visibility = ViewStates.Visible;
 
     //  assignmentsListView.Adapter = new ArrayAdapter (this, Resource.Layout.AssignmentItemLayout, data);   //   this produces cast error
@@ -100,9 +100,39 @@ namespace ListViewSample
               //  assignmentJobListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentJob, list_assingment_job);
               //  assignmentPhoneListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentPhone, list_assingment_phone);
              //   assignmentAddressListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentAddress, list_assingment_Address);
-               
+               assignmentsListView.FastScrollEnabled = true;
 
         }
+
+        
+        
+        private List<Model> CreateSampleData(int range)
+        {
+
+            var assignmentsList = new List<Model>();
+
+            for (int i = 1; i <= range; i++)
+            {
+
+
+                var assignmentModel = new Model
+                {
+                    Assignment_Number = "number",
+                    Assignment_Name = "assingment_name",
+                    Assignment_Job = "aasignmentJob",
+                    Assignment_Phone = "assingment_phone",
+                    Assignment_Adress = "assingment_Address"
+                    // Assignment_TimerText 
+                };
+
+                assignmentsList.Add(assignmentModel);
+            }
+
+            return assignmentsList;
+        
+        }
+        
+
     }
 }
 
