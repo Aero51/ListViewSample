@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace ListViewSample
 {
-    class Model
+   public class Assignment_Model
     {
 
 

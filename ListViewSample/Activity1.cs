@@ -12,11 +12,7 @@ namespace ListViewSample
     public class Activity1 : Activity
     {
 
-        ListView assignmentsListView, 
-            assignmentNameListView, 
-            assignmentJobListView, 
-            assignmentPhoneListView,
-            assignmentAddressListView;
+        ListView assignmentsListView;
 
         LinearLayout assignmentActiveLayout;
 
@@ -48,24 +44,23 @@ namespace ListViewSample
 
 			SetContentView(Resource.Layout.MainLayoutTest); 
 			assignmentsListView = FindViewById<ListView> (Resource.Id.mainLayoutTestListView);
-
-	        
-            
-            assignmentActiveLayout = FindViewById<LinearLayout> (Resource.Id.assignmentSelectedItem);
+            //assignmentActiveLayout = FindViewById<LinearLayout> (Resource.Id.assignmentSelectedItem);
 
 		//	var data = new string[] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
  
          
      
 
-            var view = new View (this);
-            LayoutInflater inflator = (LayoutInflater)GetSystemService (Context.LayoutInflaterService);
+         //   var view = new View (this);
+         /*   LayoutInflater inflator = (LayoutInflater)GetSystemService (Context.LayoutInflaterService);
             view = inflator.Inflate (Resource.Layout.AssignmentItemLayout, null);
             assignmentActiveLayout.AddView (view);
             view.LayoutParameters = new LinearLayout.LayoutParams (LinearLayout.LayoutParams.FillParent, LinearLayout.LayoutParams.WrapContent);
-            view.SetBackgroundDrawable (Resources.GetDrawable (Resource.Drawable.active_assignment_selector));
+          view.SetBackgroundDrawable (Resources.GetDrawable (Resource.Drawable.active_assignment_selector));
+            */
 
-            number = view.FindViewById<TextView>(Resource.Id.assignmentItemNumber);
+
+     /*       number = view.FindViewById<TextView>(Resource.Id.assignmentItemNumber);
             job = view.FindViewById<TextView>(Resource.Id.assignmentJob);
             name = view.FindViewById<TextView>(Resource.Id.assignmentName);
             phone = view.FindViewById<TextView>(Resource.Id.assignmentPhone);
@@ -76,48 +71,68 @@ namespace ListViewSample
           //  spinnerImage = view.FindViewById<ImageView>(Resource.Id.assignmentStatusImage);
          //   timer = view.FindViewById<ToggleButton>(Resource.Id.assignmentTimer);
             timerText = view.FindViewById<TextView>(Resource.Id.assignmentTimerText);
-
+            */
             for (int i = 1; i < 110; i++)
             {
                 list_item_number.Add(i+1);
-                list_assingment_name.Add("assingment_name");
+             /*   list_assingment_name.Add("assingment_name");
                 list_assingment_job.Add("aasignmentJob");
                 list_assingment_phone.Add("assingment_phone");
-                list_assingment_Address.Add("assingment_Address");
+                list_assingment_Address.Add("assingment_Address");*/
             }
            
 
-            number.Text ="1";
+        /*    number.Text ="1";
             job.Text = string.Format("#{0} {1}\n{2}", "JobNumber", "StartDate","CompanyName");
             name.Text = "ContactName";
             phone.Text = "ContactPhone";
             address.Text = string.Format("{0}\n{1}, {2} {3}", "Address", "City", "State", "Zip");
+            */
+
           //  assignmentActiveLayout.Visibility = ViewStates.Visible;
 
     //  assignmentsListView.Adapter = new ArrayAdapter (this, Resource.Layout.AssignmentItemLayout, data);   //   this produces cast error
-               assignmentsListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentItemNumber, list_item_number);
-             //   assignmentNameListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentName, list_assingment_name);
+
+              // assignmentsListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentItemNumber, list_item_number);
+
+              //  assignmentNameListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentName, list_assingment_name);
               //  assignmentJobListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentJob, list_assingment_job);
               //  assignmentPhoneListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentPhone, list_assingment_phone);
              //   assignmentAddressListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, Resource.Id.assignmentAddress, list_assingment_Address);
                assignmentsListView.FastScrollEnabled = true;
 
+
+
+
+
+               var listData = CreateSampleData(120);
+               assignmentsListView.Adapter = new AssignmentListAdapter(this, listData);
+             //  assignmentsListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, listData);
+
+
         }
 
+      
+
+
+
+
+
+
+
         
-        
-        private List<Model> CreateSampleData(int range)
+        private List<Assignment_Model> CreateSampleData(int range)
         {
 
-            var assignmentsList = new List<Model>();
+            var assignmentsList = new List<Assignment_Model>();
 
             for (int i = 1; i <= range; i++)
             {
 
 
-                var assignmentModel = new Model
+                var assignmentModel = new Assignment_Model
                 {
-                    Assignment_Number = "number",
+                    Assignment_Number = i.ToString(),
                     Assignment_Name = "assingment_name",
                     Assignment_Job = "aasignmentJob",
                     Assignment_Phone = "assingment_phone",
