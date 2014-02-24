@@ -15,7 +15,7 @@ namespace ListViewSample
         ListView assignmentsListView;
 
         LinearLayout assignmentActiveLayout;
-
+        AssignmentListAdapter assignmentListAdapter;
         TextView number,
             name,
             job,
@@ -106,14 +106,31 @@ namespace ListViewSample
 
 
                var listData = CreateSampleData(120);
-               assignmentsListView.Adapter = new AssignmentListAdapter(this, listData);
+               assignmentListAdapter = new AssignmentListAdapter(this, listData);
+               assignmentsListView.Adapter = assignmentListAdapter;
              //  assignmentsListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, listData);
+           //    assignmentsListView.ItemClick += new System.EventHandler<AdapterView.ItemClickEventArgs>(assignmentsListView_ItemClick);
 
+            //   var accept = this.FindViewById<Button>(Resource.Id.assignmentAccept);
+               
 
         }
 
-      
 
+        void assignmentsListView_ItemClick (object sender, ItemEventArgs e)
+        {
+
+            var item = this.assignmentListAdapter.GetItemAtPosition(e.Position);
+            Toast.MakeText(this, item.Assignment_Name + " Clicked!", ToastLength.Short).Show();
+            
+        {
+      
+        
+        }
+        
+        
+        
+        }
 
 
 
@@ -146,7 +163,7 @@ namespace ListViewSample
             return assignmentsList;
         
         }
-        
+       
 
     }
 }

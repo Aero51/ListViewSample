@@ -59,6 +59,9 @@
     <AndroidResource Include="Resources\Layout\MainLayoutTest.axml" />
     <AndroidResource Include="Resources\Layout\AssignmentItemLayout.axml" />
     <AndroidResource Include="Resources\Drawable\active_assignment_selector.xml" />
+    <AndroidResource Include="Resources\Layout\layoutTest.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\Main.axml" />
