@@ -310,8 +310,8 @@ namespace ListViewSample
 			// aapt resource value: 0x7f070002
 			public const int assignmentPhoneLayout = 2131165186;
 			
-			// aapt resource value: 0x7f070015
-			public const int assignmentSelectedItem = 2131165205;
+			// aapt resource value: 0x7f070017
+			public const int assignmentSelectedItem = 2131165207;
 			
 			// aapt resource value: 0x7f07000e
 			public const int assignmentStatus = 2131165198;
@@ -328,17 +328,23 @@ namespace ListViewSample
 			// aapt resource value: 0x7f07000b
 			public const int assignmentTimerText = 2131165195;
 			
-			// aapt resource value: 0x7f070013
-			public const int button1 = 2131165203;
+			// aapt resource value: 0x7f070015
+			public const int button1 = 2131165205;
 			
-			// aapt resource value: 0x7f070014
-			public const int listView1 = 2131165204;
+			// aapt resource value: 0x7f070013
+			public const int imageView1 = 2131165203;
 			
 			// aapt resource value: 0x7f070016
-			public const int mainLayoutTestListView = 2131165206;
+			public const int listView1 = 2131165206;
+			
+			// aapt resource value: 0x7f070018
+			public const int mainLayoutTestListView = 2131165208;
 			
 			// aapt resource value: 0x7f070012
-			public const int textItem = 2131165202;
+			public const int relativeLayout1 = 2131165202;
+			
+			// aapt resource value: 0x7f070014
+			public const int textItem = 2131165204;
 			
 			// aapt resource value: 0x7f07000a
 			public const int timerLinearLayout = 2131165194;
@@ -360,16 +366,19 @@ namespace ListViewSample
 			public const int AssignmentItemLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int layoutTest = 2130903041;
+			public const int layout2 = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int ListViewTemplate1 = 2130903042;
+			public const int layoutTest = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int ListViewTemplate1 = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int MainLayoutTest = 2130903044;
+			public const int Main = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int MainLayoutTest = 2130903045;
 			
 			static Layout()
 			{

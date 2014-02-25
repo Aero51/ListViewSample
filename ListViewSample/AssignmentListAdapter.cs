@@ -73,7 +73,7 @@ namespace ListViewSample
             var phoneButton = view.FindViewById<RelativeLayout> (Resource.Id.assignmentPhoneLayout);
             var mapButton = view.FindViewById<RelativeLayout> (Resource.Id.assignmentAddressLayout);
 
-            spinner.set
+           
 
            // buttonLayout.Visibility = ViewStates.Visible;
             timerLayout.Visibility = ViewStates.Visible;
