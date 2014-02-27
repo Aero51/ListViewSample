@@ -274,80 +274,74 @@ namespace ListViewSample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070010
-			public const int assignmentAccept = 2131165200;
-			
-			// aapt resource value: 0x7f070008
-			public const int assignmentAddress = 2131165192;
-			
-			// aapt resource value: 0x7f070006
-			public const int assignmentAddressLayout = 2131165190;
-			
-			// aapt resource value: 0x7f07000f
-			public const int assignmentButtonLayout = 2131165199;
-			
-			// aapt resource value: 0x7f070011
-			public const int assignmentDecline = 2131165201;
-			
-			// aapt resource value: 0x7f070000
-			public const int assignmentItemNumber = 2131165184;
-			
-			// aapt resource value: 0x7f070001
-			public const int assignmentJob = 2131165185;
-			
-			// aapt resource value: 0x7f070007
-			public const int assignmentMapIcon = 2131165191;
-			
-			// aapt resource value: 0x7f070004
-			public const int assignmentName = 2131165188;
-			
-			// aapt resource value: 0x7f070005
-			public const int assignmentPhone = 2131165189;
-			
-			// aapt resource value: 0x7f070003
-			public const int assignmentPhoneIcon = 2131165187;
-			
-			// aapt resource value: 0x7f070002
-			public const int assignmentPhoneLayout = 2131165186;
-			
-			// aapt resource value: 0x7f070017
-			public const int assignmentSelectedItem = 2131165207;
-			
-			// aapt resource value: 0x7f07000e
-			public const int assignmentStatus = 2131165198;
-			
-			// aapt resource value: 0x7f07000d
-			public const int assignmentStatusImage = 2131165197;
-			
-			// aapt resource value: 0x7f07000c
-			public const int assignmentTimer = 2131165196;
-			
-			// aapt resource value: 0x7f070009
-			public const int assignmentTimerLayout = 2131165193;
-			
-			// aapt resource value: 0x7f07000b
-			public const int assignmentTimerText = 2131165195;
-			
-			// aapt resource value: 0x7f070015
-			public const int button1 = 2131165205;
+			// aapt resource value: 0x7f070014
+			public const int TimerLayout = 2131165204;
 			
 			// aapt resource value: 0x7f070013
-			public const int imageView1 = 2131165203;
+			public const int accept_decline_Layout = 2131165203;
 			
-			// aapt resource value: 0x7f070016
-			public const int listView1 = 2131165206;
+			// aapt resource value: 0x7f070008
+			public const int assignmentAccept = 2131165192;
 			
-			// aapt resource value: 0x7f070018
-			public const int mainLayoutTestListView = 2131165208;
+			// aapt resource value: 0x7f070007
+			public const int assignmentAddress = 2131165191;
 			
-			// aapt resource value: 0x7f070012
-			public const int relativeLayout1 = 2131165202;
+			// aapt resource value: 0x7f070009
+			public const int assignmentDecline = 2131165193;
 			
-			// aapt resource value: 0x7f070014
-			public const int textItem = 2131165204;
+			// aapt resource value: 0x7f070001
+			public const int assignmentItemNumber = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int assignmentJob = 2131165186;
+			
+			// aapt resource value: 0x7f070006
+			public const int assignmentMapIcon = 2131165190;
+			
+			// aapt resource value: 0x7f070003
+			public const int assignmentName = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int assignmentPhone = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int assignmentPhoneIcon = 2131165189;
+			
+			// aapt resource value: 0x7f070015
+			public const int assignmentSelectedItem = 2131165205;
+			
+			// aapt resource value: 0x7f07000b
+			public const int assignmentStatus = 2131165195;
 			
 			// aapt resource value: 0x7f07000a
-			public const int timerLinearLayout = 2131165194;
+			public const int assignmentStatusImage = 2131165194;
+			
+			// aapt resource value: 0x7f07000d
+			public const int assignmentTimer = 2131165197;
+			
+			// aapt resource value: 0x7f07000c
+			public const int assignmentTimerText = 2131165196;
+			
+			// aapt resource value: 0x7f070016
+			public const int mainLayoutTestListView = 2131165206;
+			
+			// aapt resource value: 0x7f07000f
+			public const int refText1 = 2131165199;
+			
+			// aapt resource value: 0x7f070010
+			public const int refText2 = 2131165200;
+			
+			// aapt resource value: 0x7f070011
+			public const int refText3 = 2131165201;
+			
+			// aapt resource value: 0x7f070012
+			public const int refText4 = 2131165202;
+			
+			// aapt resource value: 0x7f07000e
+			public const int referenceLayout = 2131165198;
+			
+			// aapt resource value: 0x7f070000
+			public const int relativeLayout1 = 2131165184;
 			
 			static Id()
 			{
@@ -366,19 +360,7 @@ namespace ListViewSample
 			public const int AssignmentItemLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int layout2 = 2130903041;
-			
-			// aapt resource value: 0x7f030002
-			public const int layoutTest = 2130903042;
-			
-			// aapt resource value: 0x7f030003
-			public const int ListViewTemplate1 = 2130903043;
-			
-			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
-			
-			// aapt resource value: 0x7f030005
-			public const int MainLayoutTest = 2130903045;
+			public const int MainLayoutTest = 2130903041;
 			
 			static Layout()
 			{

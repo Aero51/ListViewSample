@@ -58,7 +58,13 @@
     <AndroidResource Include="Resources\Layout\MainLayoutTest.axml" />
     <AndroidResource Include="Resources\Drawable\active_assignment_selector.xml" />
     <AndroidResource Include="Resources\Layout\AssignmentItemLayout.axml">
-      <SubType>AndroidResource</SubType>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout-sw550dp\AssignmentItemLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout-sw720dp\AssignmentItemLayout.axml">
+      <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +227,7 @@
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\Drawable\PhoneIcon.png" />
+    <AndroidResource Include="Resources\Drawable\roundedblack.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -232,6 +239,7 @@
   -->
   <ItemGroup>
     <Folder Include="Resources\layout-port\" />
+    <Folder Include="Resources\Layout-sw600dp\" />
   </ItemGroup>
   <ItemGroup />
 </Project>

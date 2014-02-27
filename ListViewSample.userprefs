@@ -1,13 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewSample\Activity1.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="ListViewSample\Activity1.cs" Line="1" Column="1" />
+      <File FileName="ListViewSample\Activity1.cs" Line="155" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ListViewSample MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="FA2ALHX02449" />
+  <MonoDevelop.Ide.ItemProperties.ListViewSample MonoForAntroid.PreferredDevice="7in WSVGA (Tablet)" AndroidDeviceId-Debug="FA2ALHX02449" />
 </Properties>

@@ -7,44 +7,45 @@
         android:layout_height="75dp"
         android:id="@+id/relativeLayout1">
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/assignmentItemNumber"
             android:text="number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp" />
         <TextView
-            android:layout_toRightOf="@+id/textView1"
+            android:layout_toRightOf="@+id/assignmentItemNumber"
             android:text="Job"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:id="@+id/assignmentJob"
             android:layout_marginLeft="10dp"
             android:layout_centerVertical="true"
             android:maxWidth="110dp"
             android:minWidth="110dp" />
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+
+                android:src="@drawable/PhoneIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/textView2"
-            android:id="@+id/imageView1" />
+            android:layout_toRightOf="@+id/assignmentJob"
+            android:id="@+id/assignmentPhoneIcon" />
         <ImageView
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/imageView1"
-            android:id="@+id/imageView2"
-            android:layout_alignLeft="@+id/imageView1" />
+            android:layout_below="@+id/assignmentPhoneIcon"
+            android:id="@+id/assignmentMapIcon"
+            android:layout_alignLeft="@+id/assignmentPhoneIcon" />
         <TextView
-            android:layout_toRightOf="@+id/imageView1"
+            android:layout_toRightOf="@+id/assignmentPhoneIcon"
             android:text="name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/assignmentName"
             android:layout_marginLeft="10dp" />
         <TextView
-            android:layout_toRightOf="@+id/imageView1"
+            android:layout_toRightOf="@+id/assignmentPhoneIcon"
             android:layout_below="@+id/assignmentName"
             android:text="phone"
             android:layout_width="wrap_content"
@@ -52,7 +53,7 @@
             android:id="@+id/assignmentPhone"
             android:layout_marginLeft="10dp" />
         <TextView
-            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/assignmentMapIcon"
             android:layout_below="@+id/assignmentPhone"
             android:text="adress"
             android:layout_width="wrap_content"
@@ -63,13 +64,13 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="75dp"
-        android:layout_below="@+id/relativeLayout1"
-        android:gravity="center">
+        android:layout_below="@+id/relativeLayout1">
         <Button
             android:id="@+id/assignmentAccept"
             android:text="@string/Accept"
             android:layout_width="95dp"
             android:layout_height="42dp"
+            android:layout_toLeftOf="@+id/assignmentDecline"
             android:layout_marginBottom="5dp"
             android:focusable="false"
             android:layout_centerVertical="true"
@@ -77,12 +78,12 @@
             android:layout_centerHorizontal="true" />
         <Button
             android:text="@string/Decline"
-            android:layout_toRightOf="@+id/assignmentAccept"
             android:layout_width="95dp"
             android:layout_height="42dp"
             android:id="@+id/assignmentDecline"
             android:focusable="false"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true" />
     </RelativeLayout>
 </RelativeLayout>

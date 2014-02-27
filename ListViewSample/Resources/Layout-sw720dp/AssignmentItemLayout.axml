@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    android:minWidth="320dp">
+    android:minWidth="550dp">
     <RelativeLayout
         android:id="@+id/relativeLayout1"
-        android:layout_width="fill_parent"
+        android:layout_width="550dp"
         android:layout_height="75dp">
         <TextView
             android:id="@+id/assignmentItemNumber"
@@ -63,20 +63,21 @@
             android:id="@+id/assignmentAddress"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/assignmentPhone"
-            android:text="adress"
+            android:text="Sunshine Bulevard 1256"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:maxWidth="120dp"
+            android:maxWidth="160dp"
             android:minWidth="120dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_alignBaseline="@+id/assignmentMapIcon" />
+            android:layout_marginTop="5dp"
+            android:layout_alignBaseline="@+id/assignmentMapIcon"
+            android:layout_toRightOf="@+id/assignmentMapIcon" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="75dp"
-        android:layout_below="@+id/relativeLayout1"
-        android:visibility="gone">
+        android:layout_toRightOf="@+id/relativeLayout1"
+        android:id="@+id/accept_decline_Layout"
+        android:layout_width="206dp"
+        android:layout_height="75dp">
         <Button
             android:id="@+id/assignmentAccept"
             android:text="@string/Accept"
@@ -99,10 +100,11 @@
             android:layout_alignParentRight="true" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:layout_toRightOf="@+id/accept_decline_Layout"
+        android:layout_toLeftOf="@+id/TimerLayout"
         android:layout_height="75dp"
-        android:layout_below="@+id/relativeLayout1"
-        android:visibility="gone">
+        android:layout_width="150dp"
+        android:minWidth="150dp">
         <ImageView
             android:id="@+id/assignmentStatusImage"
             android:src="@android:drawable/ic_menu_gallery"
@@ -110,21 +112,23 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="5dp"
             android:layout_gravity="center_vertical"
-            android:layout_toLeftOf="@+id/assignmentStatus" />
+            android:layout_toLeftOf="@+id/assignmentStatus"
+            android:layout_centerVertical="true" />
         <Spinner
             android:id="@+id/assignmentStatus"
             android:text="spinner"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="8dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerHorizontal="false"
-            android:layout_centerVertical="false" />
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:spinnerMode="dropdown" />
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:id="@+id/TimerLayout"
         android:layout_height="75dp"
-        android:layout_below="@+id/relativeLayout1">
+        android:layout_width="189dp"
+        android:layout_alignParentRight="true">
         <TextView
             android:id="@+id/assignmentTimerText"
             android:layout_width="wrap_content"
@@ -146,13 +150,14 @@
             android:layout_marginLeft="10dp"
             android:layout_marginBottom="5dp"
             android:focusable="false"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:layout_marginRight="16dp" />
     </RelativeLayout>
     <RelativeLayout
         android:id="@+id/referenceLayout"
         android:layout_width="fill_parent"
         android:layout_height="150dp"
-        android:layout_below="@+id/relativeLayout1"
+        android:layout_alignParentRight="true"
         android:layout_marginTop="75dp">
         <EditText
             android:id="@+id/refText1"
