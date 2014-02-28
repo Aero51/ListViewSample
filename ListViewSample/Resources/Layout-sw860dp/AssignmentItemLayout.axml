@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    android:minWidth="860dp">
+    android:minWidth="550dp">
     <RelativeLayout
         android:id="@+id/relativeLayout1"
         android:layout_width="550dp"

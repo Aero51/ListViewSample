@@ -107,13 +107,17 @@ namespace ListViewSample
 
                var listData = CreateSampleData(120);
                assignmentListAdapter = new AssignmentListAdapter(this, listData);
+
                assignmentsListView.Adapter = assignmentListAdapter;
              //  assignmentsListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, listData);
            //    assignmentsListView.ItemClick += new System.EventHandler<AdapterView.ItemClickEventArgs>(assignmentsListView_ItemClick);
 
             //   var accept = this.FindViewById<Button>(Resource.Id.assignmentAccept);
-               
-
+			/*		View view=assignmentListAdapter.dajView;
+			var items = new List<string>() {"one", "two", "three"};
+			var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerItem, items);
+			var spinner = FindViewById<Spinner>(Resource.Id.assignmentStatus);
+			spinner.Adapter = adapter;*/
         }
 
 
@@ -150,10 +154,10 @@ namespace ListViewSample
                 var assignmentModel = new Assignment_Model
                 {
                     Assignment_Number = i.ToString(),
-                    Assignment_Name = "assingment_name",
-                    Assignment_Job = "aasignmentJob",
+					Assignment_Name = "lemon media attack",
+					Assignment_Job = "spreading the love",
                     Assignment_Phone = "assingment_phone",
-                    Assignment_Adress = "assingment_Address"
+					Assignment_Adress = "Sunshine bulevard 5 4 3 4 3 3 4"
                     // Assignment_TimerText 
                 };
 

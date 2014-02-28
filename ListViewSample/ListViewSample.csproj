@@ -63,7 +63,7 @@
     <AndroidResource Include="Resources\Layout-sw550dp\AssignmentItemLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\Layout-sw720dp\AssignmentItemLayout.axml">
+    <AndroidResource Include="Resources\Layout-sw860dp\AssignmentItemLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -240,6 +240,7 @@
   <ItemGroup>
     <Folder Include="Resources\layout-port\" />
     <Folder Include="Resources\Layout-sw600dp\" />
+    <Folder Include="Resources\Layout-sw720dp\" />
   </ItemGroup>
   <ItemGroup />
 </Project>
