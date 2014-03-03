@@ -290,11 +290,11 @@ namespace ListViewSample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080017
-			public const int TimerLayout = 2131230743;
+			// aapt resource value: 0x7f080012
+			public const int TimerLayout = 2131230738;
 			
-			// aapt resource value: 0x7f080016
-			public const int accept_decline_Layout = 2131230742;
+			// aapt resource value: 0x7f080011
+			public const int accept_decline_Layout = 2131230737;
 			
 			// aapt resource value: 0x7f080009
 			public const int assignmentAccept = 2131230729;
@@ -326,8 +326,8 @@ namespace ListViewSample
 			// aapt resource value: 0x7f080005
 			public const int assignmentPhoneIcon = 2131230725;
 			
-			// aapt resource value: 0x7f080018
-			public const int assignmentSelectedItem = 2131230744;
+			// aapt resource value: 0x7f080013
+			public const int assignmentSelectedItem = 2131230739;
 			
 			// aapt resource value: 0x7f08000d
 			public const int assignmentStatus = 2131230733;
@@ -344,26 +344,14 @@ namespace ListViewSample
 			// aapt resource value: 0x7f08000f
 			public const int assignmentTimerText = 2131230735;
 			
-			// aapt resource value: 0x7f080019
-			public const int mainLayoutTestListView = 2131230745;
-			
-			// aapt resource value: 0x7f080012
-			public const int refText1 = 2131230738;
-			
-			// aapt resource value: 0x7f080013
-			public const int refText2 = 2131230739;
-			
 			// aapt resource value: 0x7f080014
-			public const int refText3 = 2131230740;
-			
-			// aapt resource value: 0x7f080015
-			public const int refText4 = 2131230741;
-			
-			// aapt resource value: 0x7f080011
-			public const int referenceLayout = 2131230737;
+			public const int mainLayoutTestListView = 2131230740;
 			
 			// aapt resource value: 0x7f080000
 			public const int relativeLayout1 = 2131230720;
+			
+			// aapt resource value: 0x7f080015
+			public const int simpleSpinnerTextView = 2131230741;
 			
 			// aapt resource value: 0x7f08000b
 			public const int spinnerLayout = 2131230731;
@@ -386,6 +374,9 @@ namespace ListViewSample
 			
 			// aapt resource value: 0x7f030001
 			public const int MainLayoutTest = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int SimpleSpinnerItem = 2130903042;
 			
 			static Layout()
 			{

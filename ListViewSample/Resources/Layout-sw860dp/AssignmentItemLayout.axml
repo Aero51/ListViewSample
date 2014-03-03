@@ -2,10 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    android:minWidth="550dp">
+    android:minWidth="860dp">
     <RelativeLayout
         android:id="@+id/relativeLayout1"
-        android:layout_width="550dp"
+        android:layout_width="320dp"
         android:layout_height="75dp">
         <TextView
             android:id="@+id/assignmentItemNumber"
@@ -152,38 +152,5 @@
             android:focusable="false"
             android:layout_centerInParent="true"
             android:layout_marginRight="16dp" />
-    </RelativeLayout>
-    <RelativeLayout
-        android:id="@+id/referenceLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="150dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="75dp">
-        <EditText
-            android:id="@+id/refText1"
-            android:layout_width="320dp"
-            android:minWidth="320dp"
-            android:layout_height="wrap_content"
-            android:digits="012345"
-            android:text="320dp" />
-        <EditText
-            android:id="@+id/refText2"
-            android:layout_width="480dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/refText1"
-            android:text="480dp" />
-        <EditText
-            android:id="@+id/refText3"
-            android:layout_width="600dp"
-            android:minWidth="600dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/refText2"
-            android:text="600dp" />
-        <EditText
-            android:id="@+id/refText4"
-            android:layout_width="720dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/refText3"
-            android:text="720dp" />
     </RelativeLayout>
 </RelativeLayout>

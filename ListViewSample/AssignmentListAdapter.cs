@@ -79,9 +79,11 @@ namespace ListViewSample
 
            // buttonLayout.Visibility = ViewStates.Visible;
 			//  ----   timerLayout.Visibility = ViewStates.Visible;
-		
-		
-			//spinner.OnItemSelectedListener = this;
+          //  var items = new List<string>() {"one", "two", "three"};
+           // var adapter = new SpinnerAdapter<AssignmentStatus>(assignmentViewModel.AvailableStatuses, Context, Resource.Layout.SimpleSpinnerItem);
+           
+
+
 
 
           //  accept.SetOnClickListener(OnClick(this));

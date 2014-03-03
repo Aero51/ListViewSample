@@ -59,7 +59,7 @@ namespace ListViewSample
           view.SetBackgroundDrawable (Resources.GetDrawable (Resource.Drawable.active_assignment_selector));
             */
 
-
+            
      /*       number = view.FindViewById<TextView>(Resource.Id.assignmentItemNumber);
             job = view.FindViewById<TextView>(Resource.Id.assignmentJob);
             name = view.FindViewById<TextView>(Resource.Id.assignmentName);
@@ -109,15 +109,53 @@ namespace ListViewSample
                assignmentListAdapter = new AssignmentListAdapter(this, listData);
 
                assignmentsListView.Adapter = assignmentListAdapter;
+
+
+              // RelativeLayout assignmentActiveLayout;
+              // assignmentActiveLayout = FindViewById<RelativeLayout>(Resource.Id.mainLayoutTestListView);
+
+
+               var view = new View(this);
+               LayoutInflater inflator = (LayoutInflater)GetSystemService(Context.LayoutInflaterService);
+               view = inflator.Inflate(Resource.Layout.SimpleSpinnerItem, null);
+               Spinner spinner = view.FindViewById<Spinner>(Resource.Id.assignmentStatus);
+
+
+
              //  assignmentsListView.Adapter = new ArrayAdapter(this, Resource.Layout.AssignmentItemLayout, listData);
            //    assignmentsListView.ItemClick += new System.EventHandler<AdapterView.ItemClickEventArgs>(assignmentsListView_ItemClick);
 
             //   var accept = this.FindViewById<Button>(Resource.Id.assignmentAccept);
-			/*		View view=assignmentListAdapter.dajView;
+			//		View view=assignmentListAdapter.dajView;
+
+
+
+              
+              /* pogled = view;
+               if (view == null)
+               {
+                   view = context.LayoutInflater.Inflate(Resource.Layout.AssignmentItemLayout, null);
+               }
+            */
+
+
+
+
+
+
+
+
+
+      /*         var spinner = FindViewById<Spinner>(Resource.Id.assignmentStatus);
 			var items = new List<string>() {"one", "two", "three"};
-			var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerItem, items);
-			var spinner = FindViewById<Spinner>(Resource.Id.assignmentStatus);
-			spinner.Adapter = adapter;*/
+            var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            adapter.Add("df");
+
+            spinner.Adapter = adapter;
+
+            */
+
+			//spinner.Adapter = adapter;*/
         }
 
 
@@ -170,5 +208,7 @@ namespace ListViewSample
        
 
     }
+   
+
 }
 

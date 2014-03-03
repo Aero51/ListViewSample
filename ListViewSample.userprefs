@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewSample\AssignmentListAdapter.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="ListViewSample\Activity1.cs" Line="120" Column="32" />
       <File FileName="ListViewSample\AssignmentListAdapter.cs" Line="83" Column="3" />
@@ -10,5 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ListViewSample MonoForAntroid.PreferredDevice="2.7in QVGA" AndroidDeviceId-Debug="FA2ALHX02449" />
+  <MonoDevelop.Ide.ItemProperties.ListViewSample MonoForAntroid.PreferredDevice="Nexus 10" AndroidDeviceId-Debug="FA2ALHX02449" />
 </Properties>
