@@ -128,94 +128,61 @@ namespace ListViewSample
 			public const int action_bar_back = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int actionbar = 2130837508;
+			public const int active_assignment_selector = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int active_assignment_selector = 2130837509;
+			public const int ActiveAssignmentIcon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int ActiveAssignmentIcon = 2130837510;
+			public const int assignment_list_selector = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int assignment_list_selector = 2130837511;
+			public const int darkPhoneIcon = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int back_button = 2130837512;
+			public const int decline = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int bottomSearchBar = 2130837513;
+			public const int decline_assignment = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int cameraIcon = 2130837514;
+			public const int EnrouteImage = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int clearIcon = 2130837515;
+			public const int HoldImage = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int clearIconDown = 2130837516;
+			public const int Icon = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int darkPhoneIcon = 2130837517;
+			public const int MapIcon = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int decline = 2130837518;
+			public const int NewAssignmentIcon = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int decline_assignment = 2130837519;
+			public const int PhoneIcon = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int documentIcon = 2130837520;
+			public const int roundedblack = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int downlaborhours = 2130837521;
+			public const int SelectedItem = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int EnrouteImage = 2130837522;
+			public const int SummaryPause = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int HoldImage = 2130837523;
+			public const int SummaryRecord = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int Icon = 2130837524;
+			public const int timer_selector = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int MapIcon = 2130837525;
+			public const int TimerPause = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int navigationIcon = 2130837526;
-			
-			// aapt resource value: 0x7f020017
-			public const int NewAssignmentIcon = 2130837527;
-			
-			// aapt resource value: 0x7f020018
-			public const int PhoneIcon = 2130837528;
-			
-			// aapt resource value: 0x7f020019
-			public const int PreviousButton = 2130837529;
-			
-			// aapt resource value: 0x7f02001a
-			public const int roundedblack = 2130837530;
-			
-			// aapt resource value: 0x7f02001b
-			public const int SelectedItem = 2130837531;
-			
-			// aapt resource value: 0x7f02001c
-			public const int SummaryPause = 2130837532;
-			
-			// aapt resource value: 0x7f02001d
-			public const int SummaryRecord = 2130837533;
-			
-			// aapt resource value: 0x7f02001e
-			public const int timer_selector = 2130837534;
-			
-			// aapt resource value: 0x7f02001f
-			public const int TimerPause = 2130837535;
-			
-			// aapt resource value: 0x7f020020
-			public const int TimerRecord = 2130837536;
-			
-			// aapt resource value: 0x7f020021
-			public const int TrashCanIcon = 2130837537;
+			public const int TimerRecord = 2130837526;
 			
 			static Drawable()
 			{

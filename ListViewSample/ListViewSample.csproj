@@ -69,6 +69,7 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\SimpleSpinnerItem.axml" />
+    <AndroidResource Include="Resources\layout-land\AssignmentItemLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\action_bar_back.xml" />
@@ -145,8 +146,6 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ItemGroup>
-    <Folder Include="Resources\layout-port\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup />
 </Project>
