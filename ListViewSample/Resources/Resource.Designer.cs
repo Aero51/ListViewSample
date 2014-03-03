@@ -102,9 +102,6 @@ namespace ListViewSample
 			// aapt resource value: 0x7f040008
 			public const int navigationitemselected = 2130968584;
 			
-			// aapt resource value: 0x7f04000e
-			public const int radio_selector_color = 2130968590;
-			
 			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -182,100 +179,43 @@ namespace ListViewSample
 			public const int Icon = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int ItemPopupDivider = 2130837525;
+			public const int MapIcon = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int labordescriptionbottom = 2130837526;
+			public const int navigationIcon = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int laborHoursBottom = 2130837527;
+			public const int NewAssignmentIcon = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int LaborHoursDivider = 2130837528;
+			public const int PhoneIcon = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int loginbox = 2130837529;
+			public const int PreviousButton = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int MapIcon = 2130837530;
+			public const int roundedblack = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int MapOverlayDirections = 2130837531;
+			public const int SelectedItem = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int MapOverlayDirectionsDown = 2130837532;
+			public const int SummaryPause = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int MapOverlayDivider = 2130837533;
+			public const int SummaryRecord = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int MapOverlayIcon = 2130837534;
+			public const int timer_selector = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int MapOverlayIconDown = 2130837535;
+			public const int TimerPause = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int navigationIcon = 2130837536;
+			public const int TimerRecord = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int NewAssignmentIcon = 2130837537;
-			
-			// aapt resource value: 0x7f020022
-			public const int NextButton = 2130837538;
-			
-			// aapt resource value: 0x7f020023
-			public const int PhoneIcon = 2130837539;
-			
-			// aapt resource value: 0x7f020024
-			public const int PreviousButton = 2130837540;
-			
-			// aapt resource value: 0x7f020025
-			public const int questionmark = 2130837541;
-			
-			// aapt resource value: 0x7f020026
-			public const int roundedblack = 2130837542;
-			
-			// aapt resource value: 0x7f020027
-			public const int SearchIcon = 2130837543;
-			
-			// aapt resource value: 0x7f020028
-			public const int SelectedItem = 2130837544;
-			
-			// aapt resource value: 0x7f020029
-			public const int SummaryPause = 2130837545;
-			
-			// aapt resource value: 0x7f02002a
-			public const int SummaryRecord = 2130837546;
-			
-			// aapt resource value: 0x7f02002b
-			public const int timer_selector = 2130837547;
-			
-			// aapt resource value: 0x7f02002c
-			public const int TimerPause = 2130837548;
-			
-			// aapt resource value: 0x7f02002d
-			public const int TimerRecord = 2130837549;
-			
-			// aapt resource value: 0x7f02002e
-			public const int TrashCanIcon = 2130837550;
-			
-			// aapt resource value: 0x7f02002f
-			public const int triangleblue = 2130837551;
-			
-			// aapt resource value: 0x7f020030
-			public const int triangledark = 2130837552;
-			
-			// aapt resource value: 0x7f020031
-			public const int trianglegrey = 2130837553;
-			
-			// aapt resource value: 0x7f020032
-			public const int trianglewhite = 2130837554;
-			
-			// aapt resource value: 0x7f020033
-			public const int UpLaborHours = 2130837555;
-			
-			// aapt resource value: 0x7f020034
-			public const int XamarinTitle = 2130837556;
+			public const int TrashCanIcon = 2130837537;
 			
 			static Drawable()
 			{
